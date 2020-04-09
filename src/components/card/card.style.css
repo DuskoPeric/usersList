@@ -1,0 +1,49 @@
+.card {
+  width: 20%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.card-content {
+  background-color: #252b43;
+  border-top: solid 4px #1d8def;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.card img {
+  background: #429086b3;
+  border-radius: 50%;
+  width: 50%;
+  margin-top: 20px;
+}
+.card p:first-of-type {
+  margin-left: auto;
+  margin-right: auto;
+  color: #1d8def;
+  text-transform: uppercase;
+  font-size: 14px;
+  max-width: 80%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card p:last-child {
+  margin-top: 0px;
+  color: #00807a;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 1024px) {
+  .card {
+    width: 25%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .card {
+    width: 100%;
+  }
+}

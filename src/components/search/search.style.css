@@ -1,0 +1,8 @@
+.search-box input {
+  background-color: transparent;
+  border: solid 2px #00807a;
+  padding: 8px 17px;
+  color: #00807a;
+  border-radius: 22px;
+  font-size: 14px;
+}
